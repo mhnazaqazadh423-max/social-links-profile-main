@@ -1,0 +1,68 @@
+
+  @font-face {
+    font-family: fan;
+    src: url('Inter.ttf');
+  }
+    body{
+   background-color:  hsl(0, 0%, 8%);
+    flex-direction: column;
+    text-align: center;
+     justify-content:  center;
+      align-items: center;
+      display: flex;
+       padding-top: 90px;
+
+
+    }
+    .attribution { font-size: 0.6875rem; text-align: center; color: aliceblue; padding-top: 10px; }
+    .attribution a { color: hsl(228, 65%, 75%); }
+
+     .img1{
+      border-radius: 500px;
+      width: 80px;
+    }
+    .div1{
+      background-color: hsl(0, 0%, 12%);
+      width: 330px;
+      height: 550px;
+      border-radius: 10px;
+      padding-top: 25px;
+    }
+    h2{
+        font-family: fan;
+      color:hsl(0, 0%, 100%);
+    }
+    h4{
+        font-family: fan;
+        color: hsl(75, 94%, 57%);
+        
+    }
+    p{
+        font-family: fan;
+        color: hsl(0, 0%, 100%);
+    }
+    li a{
+        font-family: fan;
+        display: block;
+        background-color: hsl(0,0%,20%);
+        color:hsl(0, 0%, 100%) ;
+        text-align: center;
+        padding: 12px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    li{
+        margin-bottom: 10px;
+        padding-right: 35px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+    }
+    
+    li a:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+    }
